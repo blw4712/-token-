@@ -1,0 +1,16 @@
+{
+  "name": "agent-console",
+  "version": "0.1.0",
+  "private": true,
+  "description": "本地 Agent 用量与资产面板",
+  "main": "electron/main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev:web": "npm --prefix frontend run dev",
+    "build:web": "npm --prefix frontend run build",
+    "backend": "python backend/run.py"
+  },
+  "devDependencies": {
+    "electron": "^33.2.0"
+  }
+}

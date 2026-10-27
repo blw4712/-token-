@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Agent Console Pet</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        height: 100%;
+        background: transparent;
+      }
+
+      body {
+        font-family: "Segoe UI", "Microsoft YaHei UI", system-ui, sans-serif;
+        color: #e8eef6;
+        -webkit-user-select: none;
+        overflow: hidden;
+      }
+
+      .pet {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 14px;
+        border: 1px solid rgba(52, 211, 153, 0.22);
+        background: rgba(9, 14, 20, 0.94);
+        box-shadow: 0 14px 36px rgba(0, 0, 0, 0.5);
+        overflow: hidden;
+        cursor: grab;
+      }
+
+      .bar {
+        height: 22px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 10px;
+        -webkit-app-region: drag;
+        border-bottom: 1px solid rgba(30, 42, 56, 0.8);
+        font-size: 10px;
+        color: #5d6f83;
+      }
+
+      .bar b {
+        color: #8698ac;
+        font-weight: 600;
+        letter-spacing: 0.3px;
+      }
+
+      .dot {
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: #34d399;
+        display: inline-block;
+        margin-right: 5px;
+        vertical-align: 1px;
+      }
+
+      .offline {
+        background: #f87171 !important;
+      }
+
+      .grid {
+        flex: 1;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 1px;
+        background: rgba(30, 42, 56, 0.65);
+      }
+
+      .cell {
+        background: rgba(11, 17, 24, 0.96);
+        padding: 9px 11px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 3px;
+      }
+
+      .label {
+        font-size: 10px;
+        color: #8698ac;
+        letter-spacing: 0.2px;
+      }
+
+      .value {
+        font-size: 19px;
+        font-weight: 650;
+        line-height: 1.1;
+        letter-spacing: -0.3px;
+        font-variant-numeric: tabular-nums;
+      }
+
+      .value small {
+        font-size: 10px;
+        color: #5d6f83;
+        font-weight: 500;
+        margin-left: 3px;
+      }
+
+      .value.cost {
+        color: #f5b545;
+      }
+
+      .foot {
+        height: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 10px;
+        font-size: 9.5px;
+        color: #4d5e70;
+        background: rgba(9, 14, 20, 0.96);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="pet" id="pet" title="双击打开完整面板">
+      <div class="bar">
+        <b><span class="dot" id="status-dot"></span>AGENT CONSOLE</b>
+        <span id="stamp">—</span>
+      </div>
+      <div class="grid">
+        <div class="cell">
+          <span class="label">今日花费</span>
+          <span class="value cost" id="today-cost">—</span>
+        </div>
+        <div class="cell">
+          <span class="label">活跃模型</span>
+          <span class="value" id="models">—<small>个</small></span>
+        </div>
+        <div class="cell">
+          <span class="label">技能数</span>
+          <span class="value" id="skills">—</span>
+        </div>
+        <div class="cell">
+          <span class="label">MCP 数</span>
+          <span class="value" id="mcps">—</span>
+        </div>
+      </div>
+      <div class="foot">
+        <span>双击打开面板</span>
+        <span id="tokens">—</span>
+      </div>
+    </div>
+
+    <script>
+      const el = (id) => document.getElementById(id)
+
+      function money(value) {
+        return '¥' + Number(value || 0).toFixed(2)
+      }
+
+      function tokens(value) {
+        const number = Number(value || 0)
+        if (number >= 1000000) return (number / 1000000).toFixed(2) + 'M token'
+        if (number >= 1000) return (number / 1000).toFixed(1) + 'k token'
+        return number + ' token'
+      }
+
+      function paint(data) {
+        el('today-cost').textContent = money(data.today.cost)
+        el('models').innerHTML = data.active_models.length + '<small>个</small>'
+        el('skills').textContent = data.counts.enabled_skills
+        el('mcps').textContent = data.counts.mcps
+        el('tokens').textContent = '今日 ' + tokens(data.today.tokens)
+        el('status-dot').classList.remove('offline')
+        const now = new Date()
+        el('stamp').textContent =
+          String(now.getHours()).padStart(2, '0') + ':' + String(now.getMinutes()).padStart(2, '0')
+      }
+
+      function offline() {
+        el('status-dot').classList.add('offline')
+        el('stamp').textContent = '离线'
+      }
+
+      async function refresh() {
+        try {
+          const response = await fetch('/api/overview', { cache: 'no-store' })
+          if (!response.ok) throw new Error('bad status')
+          paint(await response.json())
+        } catch (error) {
+          offline()
+        }
+      }
+
+      function openPanel() {
+        if (window.desktop && window.desktop.openPanel) {
+          window.desktop.openPanel()
+        } else {
+          window.open('/', '_blank')
+        }
+      }
+
+      el('pet').addEventListener('dblclick', openPanel)
+      refresh()
+      setInterval(refresh, 60000)
+    </script>
+  </body>
+</html>
