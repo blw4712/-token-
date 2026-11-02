@@ -83,7 +83,8 @@ const navItems = [
   { path: '/models', label: '模型开销' },
   { path: '/skills', label: 'Skills' },
   { path: '/mcp', label: 'MCP' },
-  { path: '/agents', label: 'Agents' }
+  { path: '/agents', label: 'Agents' },
+  { path: '/news', label: 'AI 动态' }
 ]
 
 const prices = ref(null)

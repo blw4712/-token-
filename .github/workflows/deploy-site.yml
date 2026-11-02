@@ -5,7 +5,11 @@ on:
     branches: [main]
     paths:
       - "frontend/**"
+      - "scripts/**"
       - ".github/workflows/deploy-site.yml"
+  schedule:
+    # 每天 22:17 UTC（北京时间 06:17）抓一次 AI 动态并重新部署
+    - cron: "17 22 * * *"
   workflow_dispatch:
 
 permissions:
@@ -22,6 +26,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: 抓取 AI 动态
+        run: python scripts/fetch_news.py
+        continue-on-error: true
       - uses: actions/setup-node@v4
         with:
           node-version: 20

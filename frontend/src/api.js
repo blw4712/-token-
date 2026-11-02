@@ -99,3 +99,10 @@ export async function scan(full = false) {
   if (STATIC_MODE) throw new Error('网页版是只读快照，请用桌面版重新扫描')
   return request(`/api/scan?full=${full}`, { method: 'POST' })
 }
+
+/** AI 动态始终读打包进站点的 news.json，桌面版和网页版一样。 */
+export async function getNews() {
+  const response = await fetch(`${import.meta.env.BASE_URL}data/news.json`)
+  if (!response.ok) throw new Error(`动态读取失败（${response.status}）`)
+  return response.json()
+}

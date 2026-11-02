@@ -21,6 +21,7 @@
         <RouterLink to="/overview">总览</RouterLink>
         <RouterLink to="/skills">Skills</RouterLink>
         <RouterLink to="/mcp">MCP</RouterLink>
+        <RouterLink to="/news">动态</RouterLink>
         <a href="https://github.com/blw4712/-token-" target="_blank" rel="noreferrer">GitHub ↗</a>
       </nav>
     </header>
@@ -120,7 +121,8 @@ const icons = {
   layers: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l9 5-9 5-9-5 9-5Z"/><path d="M3 13l9 5 9-5"/></svg>`,
   spark: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.2 5.6L20 11l-5.8 2.4L12 19l-2.2-5.6L4 11l5.8-2.4L12 3Z"/></svg>`,
   plug: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3v6M15 3v6"/><path d="M6 9h12v3a6 6 0 0 1-12 0V9Z"/><path d="M12 18v3"/></svg>`,
-  bot: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="7" width="16" height="12" rx="3"/><path d="M12 3v4M9 12h.01M15 12h.01M9.5 16h5"/></svg>`
+  bot: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="7" width="16" height="12" rx="3"/><path d="M12 3v4M9 12h.01M15 12h.01M9.5 16h5"/></svg>`,
+  news: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 5h12a2 2 0 0 1 2 2v12H7a2 2 0 0 1-2-2V5Z"/><path d="M9 9h6M9 13h6M9 17h3"/></svg>`
 }
 
 const entries = reactive([
@@ -128,7 +130,8 @@ const entries = reactive([
   { to: '/models', title: '模型开销', desc: '按模型拆 token 与费用，四档单价可核对', stat: '看账本', accent: 'blue', icon: icons.layers },
   { to: '/skills', title: 'Skills', desc: 'Claude 与 Trae 的技能库，来源与启用状态', stat: '待填', accent: 'amber', icon: icons.spark },
   { to: '/mcp', title: 'MCP', desc: '本地缓存的服务与工具清单，已脱敏', stat: '待填', accent: 'violet', icon: icons.plug },
-  { to: '/agents', title: 'Agents', desc: '可发现的子代理及其来源目录', stat: '待填', accent: 'cyan', icon: icons.bot }
+  { to: '/agents', title: 'Agents', desc: '可发现的子代理及其来源目录', stat: '待填', accent: 'cyan', icon: icons.bot },
+  { to: '/news', title: 'AI 动态', desc: '每天抓取的公开资讯，按来源和标签筛选', stat: '每天更新', accent: 'rose', icon: icons.news }
 ])
 
 function animate(target, key, duration = 1100) {
@@ -774,6 +777,7 @@ h1 {
 .entry.amber { --accent: #f5b545; }
 .entry.violet { --accent: #a78bfa; }
 .entry.cyan { --accent: #22d3ee; }
+.entry.rose { --accent: #fb7185; }
 
 .ripple {
   position: absolute;
