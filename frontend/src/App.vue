@@ -1,5 +1,6 @@
 <template>
-  <div class="layout">
+  <RouterView v-if="isHome" />
+  <div v-else class="layout">
     <aside class="sidebar">
       <div class="brand">
         <div class="brand-mark">A</div>
@@ -68,13 +69,17 @@
 
 <script setup>
 import { computed, onMounted, ref, watch } from 'vue'
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterLink, RouterView, useRoute } from 'vue-router'
 import { getOverview, getSnapshotInfo, isStatic, scan } from './api'
 import { bump, revision, scanning } from './store'
 import { timeText } from './utils'
 
+const route = useRoute()
+const isHome = computed(() => route.path === '/')
+
 const navItems = [
-  { path: '/', label: '总览' },
+  { path: '/', label: '首页' },
+  { path: '/overview', label: '总览' },
   { path: '/models', label: '模型开销' },
   { path: '/skills', label: 'Skills' },
   { path: '/mcp', label: 'MCP' },
