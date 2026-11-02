@@ -8,6 +8,8 @@
     "start": "electron .",
     "dev:web": "npm --prefix frontend run dev",
     "build:web": "npm --prefix frontend run build",
+    "build:site": "npm --prefix frontend run build:web",
+    "snapshot": "python backend/scripts/export_snapshot.py --scan",
     "backend": "python backend/run.py"
   },
   "devDependencies": {

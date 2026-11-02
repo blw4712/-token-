@@ -1,0 +1,1639 @@
+{
+  "mode": "snapshot",
+  "generated_at": "2026-11-02T11:38:01+08:00",
+  "notice": "构建时导出的本机快照，不是实时数据；单价为未核对的示例参考价。",
+  "overview": {
+    "totals": {
+      "tokens": 39446969,
+      "cost": 29.0599,
+      "unpriced_tokens": 0,
+      "events": 838,
+      "sessions": 34
+    },
+    "today": {
+      "date": "2026-11-02",
+      "tokens": 0,
+      "cost": 0.0
+    },
+    "active_models": [],
+    "by_source": [
+      {
+        "source": "claude",
+        "tokens": 39446969,
+        "cost": 29.0599,
+        "unpriced_tokens": 0
+      }
+    ],
+    "top_models": [
+      {
+        "source": "claude",
+        "model": "deepseek-v4-flash",
+        "tokens": 29274581,
+        "cost": 13.0689
+      },
+      {
+        "source": "claude",
+        "model": "step-5-preview",
+        "tokens": 6670740,
+        "cost": 9.6685
+      },
+      {
+        "source": "claude",
+        "model": "glm-5.1",
+        "tokens": 1753542,
+        "cost": 3.5074
+      },
+      {
+        "source": "claude",
+        "model": "qwen3.7-plus",
+        "tokens": 847223,
+        "cost": 0.6006
+      },
+      {
+        "source": "claude",
+        "model": "glm-5",
+        "tokens": 788319,
+        "cost": 1.9719
+      }
+    ],
+    "counts": {
+      "skills": 50,
+      "enabled_skills": 50,
+      "mcps": 3,
+      "agents": 0
+    },
+    "prices": {
+      "currency": "CNY",
+      "verified": false,
+      "note": "示例单价，按公开参考价估算，未与实际账单核对。修改四个单价后重新运行即可生效。"
+    },
+    "last_scan": "2026-11-02T03:38:01.897861+00:00"
+  },
+  "daily": {
+    "days": [
+      {
+        "date": "2026-08-05",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-08-06",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-08-07",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-08-08",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-08-09",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-08-10",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-08-11",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-08-12",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-08-13",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-08-14",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-08-15",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-08-16",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-08-17",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-08-18",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-08-19",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-08-20",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-08-21",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-08-22",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-08-23",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-08-24",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-08-25",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-08-26",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-08-27",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-08-28",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-08-29",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-08-30",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-08-31",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-09-01",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-09-02",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-09-03",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-09-04",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-09-05",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-09-06",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-09-07",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-09-08",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-09-09",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-09-10",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-09-11",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-09-12",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-09-13",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-09-14",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-09-15",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-09-16",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-09-17",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-09-18",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-09-19",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-09-20",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-09-21",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-09-22",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-09-23",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-09-24",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-09-25",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-09-26",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-09-27",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-09-28",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-09-29",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-09-30",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-10-01",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-10-02",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-10-03",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-10-04",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-10-05",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-10-06",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-10-07",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-10-08",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-10-09",
+        "tokens": 21981,
+        "cost": 0.044646,
+        "unpriced_tokens": 0,
+        "claude_tokens": 21981,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-10-10",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-10-11",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-10-12",
+        "tokens": 641924,
+        "cost": 0.40132480000000004,
+        "unpriced_tokens": 0,
+        "claude_tokens": 641924,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-10-13",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-10-14",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-10-15",
+        "tokens": 2770279,
+        "cost": 5.662042399999999,
+        "unpriced_tokens": 0,
+        "claude_tokens": 2770279,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-10-16",
+        "tokens": 614281,
+        "cost": 0.5271170000000001,
+        "unpriced_tokens": 0,
+        "claude_tokens": 614281,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-10-17",
+        "tokens": 16825619,
+        "cost": 8.130151599999998,
+        "unpriced_tokens": 0,
+        "claude_tokens": 16825619,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-10-18",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-10-19",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-10-20",
+        "tokens": 11917230,
+        "cost": 4.7060532,
+        "unpriced_tokens": 0,
+        "claude_tokens": 11917230,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-10-21",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-10-22",
+        "tokens": 5763196,
+        "cost": 8.008335,
+        "unpriced_tokens": 0,
+        "claude_tokens": 5763196,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-10-23",
+        "tokens": 892459,
+        "cost": 1.580221,
+        "unpriced_tokens": 0,
+        "claude_tokens": 892459,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-10-24",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-10-25",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-10-26",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-10-27",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-10-28",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-10-29",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-10-30",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-10-31",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-11-01",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      },
+      {
+        "date": "2026-11-02",
+        "tokens": 0,
+        "cost": 0.0,
+        "unpriced_tokens": 0,
+        "claude_tokens": 0,
+        "trae_tokens": 0
+      }
+    ],
+    "currency": "CNY"
+  },
+  "models": {
+    "models": [
+      {
+        "source": "claude",
+        "model": "deepseek-v4-flash",
+        "events": 582,
+        "tokens": 29274581,
+        "cost": 13.0689,
+        "unpriced": false,
+        "input_tokens": 1580657,
+        "output_tokens": 560100,
+        "cache_read_tokens": 27133824,
+        "cache_write_tokens": 0
+      },
+      {
+        "source": "claude",
+        "model": "step-5-preview",
+        "events": 115,
+        "tokens": 6670740,
+        "cost": 9.6685,
+        "unpriced": false,
+        "input_tokens": 382927,
+        "output_tokens": 77162,
+        "cache_read_tokens": 6210651,
+        "cache_write_tokens": 0
+      },
+      {
+        "source": "claude",
+        "model": "glm-5.1",
+        "events": 51,
+        "tokens": 1753542,
+        "cost": 3.5074,
+        "unpriced": false,
+        "input_tokens": 102,
+        "output_tokens": 21578,
+        "cache_read_tokens": 1542139,
+        "cache_write_tokens": 189723
+      },
+      {
+        "source": "claude",
+        "model": "qwen3.7-plus",
+        "events": 35,
+        "tokens": 847223,
+        "cost": 0.6006,
+        "unpriced": false,
+        "input_tokens": 210,
+        "output_tokens": 4862,
+        "cache_read_tokens": 701901,
+        "cache_write_tokens": 140250
+      },
+      {
+        "source": "claude",
+        "model": "glm-5",
+        "events": 19,
+        "tokens": 788319,
+        "cost": 1.9719,
+        "unpriced": false,
+        "input_tokens": 386750,
+        "output_tokens": 6817,
+        "cache_read_tokens": 394752,
+        "cache_write_tokens": 0
+      },
+      {
+        "source": "claude",
+        "model": "qwen3.6-plus",
+        "events": 3,
+        "tokens": 67409,
+        "cost": 0.0507,
+        "unpriced": false,
+        "input_tokens": 18,
+        "output_tokens": 372,
+        "cache_read_tokens": 22297,
+        "cache_write_tokens": 44722
+      },
+      {
+        "source": "claude",
+        "model": "deepseek-v4-pro",
+        "events": 2,
+        "tokens": 45155,
+        "cost": 0.192,
+        "unpriced": false,
+        "input_tokens": 44210,
+        "output_tokens": 945,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      }
+    ],
+    "currency": "CNY",
+    "verified": false,
+    "note": "示例单价，按公开参考价估算，未与实际账单核对。修改四个单价后重新运行即可生效。"
+  },
+  "skills": {
+    "skills": [
+      {
+        "name": "feature-implementation-plan",
+        "description": "探索代码库并输出分阶段功能实现计划。在用户提出功能实现、新增能力、方案设计、 Phase 规划，或要求「先列计划再写代码」时使用。输出范围边界、架构影响、模块变更、 任务清单、验收标准与风险。默认中文。用户确认计划后再进入编码。",
+        "platform": "claude",
+        "scope": "global",
+        "scope_label": "用户级",
+        "origin": "",
+        "path": "~\\.claude\\skills\\pdf",
+        "enabled": true
+      },
+      {
+        "name": "crud-api-generator",
+        "description": "为水务物联IoT平台按指定库表生成 MyBatis-Plus 单表 CRUD 后端接口，输出实体、Mapper、Service、Controller 与唯一性校验。 当用户要求根据某张表生成增删改查接口、补全某个业务表的后端 API 时使用。 不用于搭建新的微服务模块（改用 microservice-scaffolder），也不用于前端页面开发。",
+        "platform": "claude",
+        "scope": "project",
+        "scope_label": "项目级",
+        "origin": "D:\\Projects\\swwl-project",
+        "path": "D:\\Projects\\swwl-project\\.claude\\skills\\crud-api-generator",
+        "enabled": true
+      },
+      {
+        "name": "frontend-module-builder",
+        "description": "为水务物联IoT平台的 vben web-antd 前端生成完整业务模块，输出 API 封装层、列表页、表单弹窗与菜单路由对接。 当用户要求新增前端模块、开发某个管理页面、把后端接口接入前端时使用。 不用于只生成单个通用 Vue 组件（改用 vue-component-builder），也不用于编写后端接口。",
+        "platform": "claude",
+        "scope": "project",
+        "scope_label": "项目级",
+        "origin": "D:\\Projects\\swwl-project",
+        "path": "D:\\Projects\\swwl-project\\.claude\\skills\\frontend-module-builder",
+        "enabled": true
+      },
+      {
+        "name": "microservice-scaffolder",
+        "description": "在水务物联IoT平台后端搭建新的 Spring Cloud 微服务模块，按端口命名生成 pom、启动类、配置、网关路由与 Nacos 注册。 当用户要求新建微服务、新增 service-XXXX 模块、把某个业务域拆成独立服务时使用。 不用于生成单表的 CRUD 接口（改用 crud-api-generator），也不用于前端开发。",
+        "platform": "claude",
+        "scope": "project",
+        "scope_label": "项目级",
+        "origin": "D:\\Projects\\swwl-project",
+        "path": "D:\\Projects\\swwl-project\\.claude\\skills\\microservice-scaffolder",
+        "enabled": true
+      },
+      {
+        "name": "prd-writer",
+        "description": "为水务物联IoT平台撰写产品需求文档（PRD），输出业务背景、角色场景、功能需求、数据模型、接口契约、非功能需求与可验证的验收标准。 当用户要求编写、补全或评审 PRD、产品需求文档、功能规格说明书时使用。 不用于生成 HTML 原型、编写代码或编写测试用例。",
+        "platform": "claude",
+        "scope": "project",
+        "scope_label": "项目级",
+        "origin": "D:\\Projects\\swwl-project",
+        "path": "D:\\Projects\\swwl-project\\.claude\\skills\\prd-writer",
+        "enabled": true
+      },
+      {
+        "name": "prototype-builder",
+        "description": "为水务物联IoT平台生成可视化 HTML 原型页面，用于需求评审与交互确认，风格对齐 vben web-antd 后台。 当用户要求做原型、原型图、交互稿、页面示意图或可点击 Demo 时使用。 不用于编写真实业务代码或 Vue 组件，也不用于撰写 PRD 文字文档。",
+        "platform": "claude",
+        "scope": "project",
+        "scope_label": "项目级",
+        "origin": "D:\\Projects\\swwl-project",
+        "path": "D:\\Projects\\swwl-project\\.claude\\skills\\prototype-builder",
+        "enabled": true
+      },
+      {
+        "name": "swwl-project",
+        "description": "水务物联网IoT平台的全局项目上下文，包含工程结构、技术栈版本、微服务与端口分配、数据存储分工、业务域与 AI Agent 概览、全局编码约定与构建命令。 在开发或改造本项目任何后端、前端功能前加载，用于统一架构认知与代码风格。 不承载具体实现步骤，具体做法见各项能力技能。",
+        "platform": "claude",
+        "scope": "project",
+        "scope_label": "项目级",
+        "origin": "D:\\Projects\\swwl-project",
+        "path": "D:\\Projects\\swwl-project\\.claude\\skills\\swwl-project",
+        "enabled": true
+      },
+      {
+        "name": "test-case-writer",
+        "description": "为水务物联IoT平台生成测试用例文档与可执行 JUnit 5 自动化测试代码，覆盖接口正例、异常与边界。 当用户要求写测试用例、测试方案、补单元测试或接口自动化测试时使用。 不用于修复 bug（先定位再改代码），也不用于生成业务功能代码。",
+        "platform": "claude",
+        "scope": "project",
+        "scope_label": "项目级",
+        "origin": "D:\\Projects\\swwl-project",
+        "path": "D:\\Projects\\swwl-project\\.claude\\skills\\test-case-writer",
+        "enabled": true
+      },
+      {
+        "name": "vue-component-builder",
+        "description": "为水务物联IoT平台的 vben web-antd 前端编写可复用的 Vue 3 单文件组件，基于 script setup 与 ant-design-vue。 当用户要求生成或封装一个 Vue 组件、抽取公共组件、或改造已有组件的 props 与事件时使用。 不用于生成完整业务页面模块（改用 frontend-module-builder），也不用于编写后端代码。",
+        "platform": "claude",
+        "scope": "project",
+        "scope_label": "项目级",
+        "origin": "D:\\Projects\\swwl-project",
+        "path": "D:\\Projects\\swwl-project\\.claude\\skills\\vue-component-builder",
+        "enabled": true
+      },
+      {
+        "name": "TRAE-code-review",
+        "description": "仅当用户明确要求对 MR/PR、commit、分支或代码差异执行通用代码审查时使用。审查质量、正确性、可维护性、性能和最佳实践，并返回结构化问题。不得用于仅安全审计、普通编码、功能实现或修复请求，也不得在用户明确要求 Bits Code Guard 时使用。",
+        "platform": "trae",
+        "scope": "builtin",
+        "scope_label": "内置",
+        "origin": "",
+        "path": "~\\.trae-cn\\builtin_skills\\TRAE-code-review",
+        "enabled": true
+      },
+      {
+        "name": "TRAE-debugger",
+        "description": "用于调试需要采集运行时证据的复杂、可复现问题，通过假设、针对性插桩、复现、分析、最小修复和修复后验证形成闭环。仅当用户直接要求调试、排查、诊断、定位根因或采集运行时证据，且无法通过直接的静态分析可靠定位、也没有更合适的专用流程时使用。仅描述卡顿、空白、崩溃、抖动或行为异常，或者仅要求修复、优化，并不构成本 Skill 的启用意图。对于同一调试请求，用户偏好及其他专用调试 Skill、MCP 和流程具有更高优先级，即使用户没有点名。本 Skill 不处理简单问题或静态问题，也不作为 Agent 执行受阻时的自动兜底。",
+        "platform": "trae",
+        "scope": "builtin",
+        "scope_label": "内置",
+        "origin": "",
+        "path": "~\\.trae-cn\\builtin_skills\\TRAE-debugger",
+        "enabled": true
+      },
+      {
+        "name": "TRAE-generate-mini-app",
+        "description": "仅当用户明确要求创建、生成、开发或修改小程序（如微信、支付宝、抖音小程序或 Taro 跨端小程序）时，才生成或修改基于 Taro 的可运行代码。不得用于未明确指向小程序的普通 Web、UI、移动端或应用开发请求。",
+        "platform": "trae",
+        "scope": "builtin",
+        "scope_label": "内置",
+        "origin": "",
+        "path": "~\\.trae-cn\\builtin_skills\\TRAE-generate-mini-app",
+        "enabled": true
+      },
+      {
+        "name": "TRAE-security-review",
+        "description": "用于代码安全扫描，或用户要求对 MR/PR、commit、分支、代码差异或未提交变更执行安全审查、漏洞扫描或安全审计时使用。只报告可证实可利用且由本次变更引入的风险。不得用于通用代码审查、普通编码、功能实现或修复请求，也不得用于运行时故障排查。",
+        "platform": "trae",
+        "scope": "builtin",
+        "scope_label": "内置",
+        "origin": "",
+        "path": "~\\.trae-cn\\builtin_skills\\TRAE-security-review",
+        "enabled": true
+      },
+      {
+        "name": "deployment",
+        "description": "Deploy supported web apps in Trae. Use for publish, redeploy, deployment status, logs, configuration, cancellation, retry, or rollback. Do not use for source inspection or local project management.",
+        "platform": "trae",
+        "scope": "plugin",
+        "scope_label": "插件",
+        "origin": "trae-remote-official:deployment@0.0.25",
+        "path": "~\\.trae-cn\\plugins\\trae-remote-official\\deployment\\0.0.25\\skills\\deployment",
+        "enabled": true
+      },
+      {
+        "name": "docx",
+        "description": "Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When you need to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks",
+        "platform": "trae",
+        "scope": "plugin",
+        "scope_label": "插件",
+        "origin": "trae-remote-official:office-plugin@0.1.0",
+        "path": "~\\.trae-cn\\plugins\\trae-remote-official\\office-plugin\\0.1.0\\skills\\docx",
+        "enabled": true
+      },
+      {
+        "name": "html-deck",
+        "description": "Create stunning, animation-rich HTML slide decks from scratch. Outputs a self-contained HTML file that opens in any browser, agent-friendly, visually impressive and pixel-perfect across all platforms. Use when the user says \"演示文稿\", \"presentation\", \"slides\", or \"deck\" WITHOUT explicitly mentioning \"PPT\" or \"ppt\" — if the user says \"PPT\"/\"ppt\", route to the `pptx` skill instead. Covers building a brand-new presentation from a topic, outline, document, or Markdown — i.e. no existing .pptx file is involved. The deliverable is always HTML.",
+        "platform": "trae",
+        "scope": "plugin",
+        "scope_label": "插件",
+        "origin": "trae-remote-official:html-report-presentation@0.1.0",
+        "path": "~\\.trae-cn\\plugins\\trae-remote-official\\html-report-presentation\\0.1.0\\skills\\html-deck",
+        "enabled": true
+      },
+      {
+        "name": "html-report",
+        "description": "Create any self-contained HTML deliverable except slides — research reports, whitepapers, PRDs, dashboards, portfolios, resumes, email templates, data visualizations, and more. Use when the user wants to produce a polished, visually designed HTML page or multi-page site for any purpose. The final deliverable is a self-contained directory (<name>.html + assets + _shared) deployed to the user's workspace with zero external dependencies.",
+        "platform": "trae",
+        "scope": "plugin",
+        "scope_label": "插件",
+        "origin": "trae-remote-official:html-report-presentation@0.1.0",
+        "path": "~\\.trae-cn\\plugins\\trae-remote-official\\html-report-presentation\\0.1.0\\skills\\html-report",
+        "enabled": true
+      },
+      {
+        "name": "lark-approval",
+        "description": "飞书审批：查询和处理审批待办/已办/实例，搜索可发起审批定义、查看定义详情并发起原生审批实例。当用户要处理审批任务、查看审批实例、搜索或发起审批时使用。审批待办不是飞书任务；非审批类待办走 lark-task。不负责创建审批定义；三方审批定义不走原生提单。",
+        "platform": "trae",
+        "scope": "plugin",
+        "scope_label": "插件",
+        "origin": "trae-remote-official:lark@1.0.5",
+        "path": "~\\.trae-cn\\plugins\\trae-remote-official\\lark\\1.0.5\\skills\\lark-approval",
+        "enabled": true
+      },
+      {
+        "name": "lark-attendance",
+        "description": "飞书考勤打卡：查询自己的考勤打卡记录",
+        "platform": "trae",
+        "scope": "plugin",
+        "scope_label": "插件",
+        "origin": "trae-remote-official:lark@1.0.5",
+        "path": "~\\.trae-cn\\plugins\\trae-remote-official\\lark\\1.0.5\\skills\\lark-attendance",
+        "enabled": true
+      },
+      {
+        "name": "lark-base",
+        "description": "飞书多维表格（Base）操作：建表、字段、记录、视图、统计、公式/lookup、表单、仪表盘、应用模式（BaseApp/AppMode 页面与组件）、Workspace 目录、workflow、角色权限、模板中心（多维表格模板分类/列表/搜索）；遇到 Base/多维表格/bitable、BaseApp/AppMode、/base/ 或 /app/ 链接时使用。BaseApp 不走 lark-apps；文件导入/导出转 lark-drive，认证/授权转 lark-shared。",
+        "platform": "trae",
+        "scope": "plugin",
+        "scope_label": "插件",
+        "origin": "trae-remote-official:lark@1.0.5",
+        "path": "~\\.trae-cn\\plugins\\trae-remote-official\\lark\\1.0.5\\skills\\lark-base",
+        "enabled": true
+      },
+      {
+        "name": "lark-calendar",
+        "description": "飞书日历：管理日历日程和会议室。查看/搜索日程、创建/更新日程、管理参会人、查询忙闲和推荐时段、预定会议室。当用户需要查看日程安排、创建/修改会议、查询/预定会议室时使用。不负责：查询过去的视频会议记录（走 lark-meeting）、待办任务（走 lark-task）。",
+        "platform": "trae",
+        "scope": "plugin",
+        "scope_label": "插件",
+        "origin": "trae-remote-official:lark@1.0.5",
+        "path": "~\\.trae-cn\\plugins\\trae-remote-official\\lark\\1.0.5\\skills\\lark-calendar",
+        "enabled": true
+      },
+      {
+        "name": "lark-contact",
+        "description": "飞书 / Lark 通讯录:按姓名 / 邮箱解析成 open_id,或按 open_id 反查姓名 / 部门 / 邮箱 / 联系方式 / 个人状态 / 签名,以及按关键词搜索当前用户可见的机器人 / 智能体(agent)。当用户提到一个名字要下一步发消息 / 排日程,或拿到 open_id 想查具体信息时使用。不负责部门树遍历、按部门列员工、组织架构图,这类需求走原生 OpenAPI。",
+        "platform": "trae",
+        "scope": "plugin",
+        "scope_label": "插件",
+        "origin": "trae-remote-official:lark@1.0.5",
+        "path": "~\\.trae-cn\\plugins\\trae-remote-official\\lark\\1.0.5\\skills\\lark-contact",
+        "enabled": true
+      },
+      {
+        "name": "lark-doc",
+        "description": "飞书云文档（Docx / Wiki）内容操作：读取、创建、编辑文档，插入或下载图片附件，以及操作思维笔记。用户提供文档 URL/token（包括 doubao.com 的 /docx/、/wiki/）时使用；按 URL 路径/token 而非域名路由。文档内嵌资源按读取参考中的统一规则分流。独立评论操作走 lark-drive；随正文读取评论使用 docs +fetch。表格或 Base 内部数据操作不在本 skill。",
+        "platform": "trae",
+        "scope": "plugin",
+        "scope_label": "插件",
+        "origin": "trae-remote-official:lark@1.0.5",
+        "path": "~\\.trae-cn\\plugins\\trae-remote-official\\lark\\1.0.5\\skills\\lark-doc",
+        "enabled": true
+      },
+      {
+        "name": "lark-drive",
+        "description": "飞书云空间（云盘/云存储）：管理 Drive 文件和文件夹，包含上传/下载、创建文件夹、复制/移动/删除、查看元数据、查询权限设置、评论/权限/订阅、标题、版本、飞书文档密级标签（secure labels）和本地文件导入。用户需要整理云盘目录、处理云空间资源 URL/token、判断链接类型/真实 token/标题，或导入 Word/Markdown/Excel/CSV/PPTX/.base 为 docx/sheet/bitable/slides 时使用；doubao.com 云空间 URL/token 也按资源路径和 token 路由，不回退 WebFetch。不负责：文档内容编辑（走 lark-doc）、表格/Base 表内数据操作（走 lark-sheets/lark-base）、知识空间节点/成员管理（走 lark-wiki）、原生 Markdown 文件读写/patch/diff（走 lark-markdown）。",
+        "platform": "trae",
+        "scope": "plugin",
+        "scope_label": "插件",
+        "origin": "trae-remote-official:lark@1.0.5",
+        "path": "~\\.trae-cn\\plugins\\trae-remote-official\\lark\\1.0.5\\skills\\lark-drive",
+        "enabled": true
+      },
+      {
+        "name": "lark-event",
+        "description": "Lark/Feishu real-time event listening / subscribing / consuming: stream events as NDJSON via `lark-cli event consume <EventKey>` (covers IM messages/reactions/chat changes, Approval status changes, Task updates, VC meeting started/joined/ended, Minutes generated, Whiteboard updated, etc.). Use for Lark bots, real-time message processing, long-running subscribers, streaming webhook/push handlers. Supports `--max-events` / `--timeout` bounded runs and a stderr ready-marker contract — designed for AI agents running as subprocesses.",
+        "platform": "trae",
+        "scope": "plugin",
+        "scope_label": "插件",
+        "origin": "trae-remote-official:lark@1.0.5",
+        "path": "~\\.trae-cn\\plugins\\trae-remote-official\\lark\\1.0.5\\skills\\lark-event",
+        "enabled": true
+      },
+      {
+        "name": "lark-im",
+        "description": "飞书即时通讯：收发消息和管理群聊。发送和回复消息、搜索聊天记录、管理群聊成员、上传下载图片和文件、管理表情回复、发送应用内/短信/电话加急、发送和处理交互卡片（Interactive Card）、监听卡片按钮回调（card.action.trigger）。当用户需要发消息、查看或搜索聊天记录、下载聊天中的文件、查看群成员、搜索群、创建群聊或话题群、管理标记数据、管理 Feed 置顶（添加/移除/查询置顶会话）、管理标签数据、处理卡片回调时使用。",
+        "platform": "trae",
+        "scope": "plugin",
+        "scope_label": "插件",
+        "origin": "trae-remote-official:lark@1.0.5",
+        "path": "~\\.trae-cn\\plugins\\trae-remote-official\\lark\\1.0.5\\skills\\lark-im",
+        "enabled": true
+      },
+      {
+        "name": "lark-mail",
+        "description": "飞书邮箱：Use when user mentions 起草邮件、写邮件、草稿、发送/回复/转发邮件、查阅邮件、看邮件、搜索邮件、邮件文件夹、邮件标签、邮件联系人、监听新邮件、邮件收信规则等；use for mail/email intent only. Do not use for docs/sheets/calendar/auth setup/pure contact lookup/IM chat tasks.",
+        "platform": "trae",
+        "scope": "plugin",
+        "scope_label": "插件",
+        "origin": "trae-remote-official:lark@1.0.5",
+        "path": "~\\.trae-cn\\plugins\\trae-remote-official\\lark\\1.0.5\\skills\\lark-mail",
+        "enabled": true
+      },
+      {
+        "name": "lark-markdown",
+        "description": "飞书 Markdown：查看、创建、上传、编辑和比较飞书中的原生 Markdown 文件。当用户要操作飞书 Markdown 文件，或比较其远端版本及本地草稿时使用。纯本地 Markdown 文件操作不触发本 skill。不负责将 Markdown 导入为飞书在线文档，也不负责文件搜索、权限、评论、移动、删除等云空间管理操作。",
+        "platform": "trae",
+        "scope": "plugin",
+        "scope_label": "插件",
+        "origin": "trae-remote-official:lark@1.0.5",
+        "path": "~\\.trae-cn\\plugins\\trae-remote-official\\lark\\1.0.5\\skills\\lark-markdown",
+        "enabled": true
+      },
+      {
+        "name": "lark-meeting",
+        "description": "飞书视频会议：查询会议记录与会议产物(纪要/逐字稿/妙记)、妙记搜索/上传/下载/编辑、机器人参与会议；查询进行中的会议、实时会议内容(发言/聊天/共享文档)问答(会上/会里)、发送会中聊天/表情；基于 meeting_id、meeting_no、event_id、note_id、minute_token、vc-node-id 或妙记 URL 查询相关信息。预约会议、忙闲和会议室管理走 lark-calendar。",
+        "platform": "trae",
+        "scope": "plugin",
+        "scope_label": "插件",
+        "origin": "trae-remote-official:lark@1.0.5",
+        "path": "~\\.trae-cn\\plugins\\trae-remote-official\\lark\\1.0.5\\skills\\lark-meeting",
+        "enabled": true
+      },
+      {
+        "name": "lark-minutes",
+        "description": "仅当用户或上游配置显式指定 lark-minutes 时使用，相关请求统一交由 lark-meeting 技能处理。",
+        "platform": "trae",
+        "scope": "plugin",
+        "scope_label": "插件",
+        "origin": "trae-remote-official:lark@1.0.5",
+        "path": "~\\.trae-cn\\plugins\\trae-remote-official\\lark\\1.0.5\\skills\\lark-minutes",
+        "enabled": true
+      },
+      {
+        "name": "lark-note",
+        "description": "仅当用户或上游配置显式指定 lark-note 时使用，相关请求统一交由 lark-meeting 技能处理。",
+        "platform": "trae",
+        "scope": "plugin",
+        "scope_label": "插件",
+        "origin": "trae-remote-official:lark@1.0.5",
+        "path": "~\\.trae-cn\\plugins\\trae-remote-official\\lark\\1.0.5\\skills\\lark-note",
+        "enabled": true
+      },
+      {
+        "name": "lark-okr",
+        "description": "飞书 OKR：管理目标与关键结果。查看和编辑 OKR 周期、目标、关键结果、对齐关系、量化指标和进展记录。当用户需要查看或创建 OKR、管理目标和关键结果、查看对齐关系时使用。不负责：待办任务管理（lark-task）、日程/会议安排（lark-calendar）、绩效评估",
+        "platform": "trae",
+        "scope": "plugin",
+        "scope_label": "插件",
+        "origin": "trae-remote-official:lark@1.0.5",
+        "path": "~\\.trae-cn\\plugins\\trae-remote-official\\lark\\1.0.5\\skills\\lark-okr",
+        "enabled": true
+      },
+      {
+        "name": "lark-openapi-explorer",
+        "description": "飞书/Lark 原生 OpenAPI 探索：从官方文档库中挖掘未经 CLI 封装的原生 OpenAPI 接口。当用户的需求无法被现有 lark-* skill 或 lark-cli 已注册命令满足，需要查找并调用原生飞书 OpenAPI 时使用。",
+        "platform": "trae",
+        "scope": "plugin",
+        "scope_label": "插件",
+        "origin": "trae-remote-official:lark@1.0.5",
+        "path": "~\\.trae-cn\\plugins\\trae-remote-official\\lark\\1.0.5\\skills\\lark-openapi-explorer",
+        "enabled": true
+      },
+      {
+        "name": "lark-shared",
+        "description": "Use for lark-cli setup/auth tasks: auth login/status/logout, user vs bot identity, business-domain permissions (--domain, including all/docs/drive), missing scopes, revoking authorization, or handling _notice JSON.",
+        "platform": "trae",
+        "scope": "plugin",
+        "scope_label": "插件",
+        "origin": "trae-remote-official:lark@1.0.5",
+        "path": "~\\.trae-cn\\plugins\\trae-remote-official\\lark\\1.0.5\\skills\\lark-shared",
+        "enabled": true
+      },
+      {
+        "name": "lark-sheets",
+        "description": "飞书电子表格：创建和操作电子表格。支持创建表格、管理工作表与行列结构（增删/合并/调整尺寸/隐藏/冻结）、读写单元格（值/公式/样式/批注/单元格图片）、查找替换、多操作批量更新，以及图表、透视表、条件格式、筛选器、迷你图、浮动图片等对象的创建与维护。当用户需要创建电子表格、管理工作表、批量读写或编辑数据、统计汇总与可视化、表格美化、公式计算（含 Excel 公式迁移）、金融/财务建模（DCF、三张表、预算、Sensitivity 等）等任务时使用。若用户是想按名称或关键词搜索云空间（云盘/云存储）里的表格文件，请改用 lark-drive 的 drive +search 先定位资源。当用户给出 doubao.com 的 /sheets/ URL/token 时，也应直接使用本 skill，不要因为域名不是飞书而回退到 WebFetch；路由依据是 URL 路径模式和 token，而不是域名。",
+        "platform": "trae",
+        "scope": "plugin",
+        "scope_label": "插件",
+        "origin": "trae-remote-official:lark@1.0.5",
+        "path": "~\\.trae-cn\\plugins\\trae-remote-official\\lark\\1.0.5\\skills\\lark-sheets",
+        "enabled": true
+      },
+      {
+        "name": "lark-skill-maker",
+        "description": "创建 lark-cli 的自定义 Skill。当用户需要把飞书 API 操作封装成可复用的 Skill（包装原子 API 或编排多步流程）时使用。",
+        "platform": "trae",
+        "scope": "plugin",
+        "scope_label": "插件",
+        "origin": "trae-remote-official:lark@1.0.5",
+        "path": "~\\.trae-cn\\plugins\\trae-remote-official\\lark\\1.0.5\\skills\\lark-skill-maker",
+        "enabled": true
+      },
+      {
+        "name": "lark-slides",
+        "description": "飞书幻灯片：创建和编辑幻灯片。创建演示文稿、读取幻灯片内容、管理幻灯片页面（创建、删除、读取、局部替换）。当用户需要创建或编辑幻灯片、读取或修改单个页面时使用。当用户给出 doubao.com 的 /slides/ URL/token 时，也应直接使用本 skill，不要因为域名不是飞书而回退到 WebFetch；路由依据是 URL 路径模式和 token，而不是域名。不负责：云文档内容编辑（走 lark-doc）、云文档里的独立画板对象（走 lark-whiteboard）、上传或下载普通文件（走 lark-drive）。",
+        "platform": "trae",
+        "scope": "plugin",
+        "scope_label": "插件",
+        "origin": "trae-remote-official:lark@1.0.5",
+        "path": "~\\.trae-cn\\plugins\\trae-remote-official\\lark\\1.0.5\\skills\\lark-slides",
+        "enabled": true
+      },
+      {
+        "name": "lark-task",
+        "description": "飞书任务：管理任务、清单和任务智能体。创建待办任务、查看和更新任务状态、拆分子任务、组织任务清单、分配协作成员、上传任务附件、注册或注销任务智能体、更新任务智能体的主页数据、写入智能体任务记录。当用户需要创建待办事项、查看任务列表、跟踪任务进度、管理项目清单或给他人分配任务、为任务上传附件文件、注册注销任务智能体、更新智能体主页数据、写入任务记录时使用。",
+        "platform": "trae",
+        "scope": "plugin",
+        "scope_label": "插件",
+        "origin": "trae-remote-official:lark@1.0.5",
+        "path": "~\\.trae-cn\\plugins\\trae-remote-official\\lark\\1.0.5\\skills\\lark-task",
+        "enabled": true
+      },
+      {
+        "name": "lark-vc",
+        "description": "仅当用户或上游配置显式指定 lark-vc 时使用，相关请求统一交由 lark-meeting 技能处理。",
+        "platform": "trae",
+        "scope": "plugin",
+        "scope_label": "插件",
+        "origin": "trae-remote-official:lark@1.0.5",
+        "path": "~\\.trae-cn\\plugins\\trae-remote-official\\lark\\1.0.5\\skills\\lark-vc",
+        "enabled": true
+      },
+      {
+        "name": "lark-vc-agent",
+        "description": "仅当用户或上游配置显式指定 lark-vc-agent 时使用，相关请求统一交由 lark-meeting 技能处理。",
+        "platform": "trae",
+        "scope": "plugin",
+        "scope_label": "插件",
+        "origin": "trae-remote-official:lark@1.0.5",
+        "path": "~\\.trae-cn\\plugins\\trae-remote-official\\lark\\1.0.5\\skills\\lark-vc-agent",
+        "enabled": true
+      },
+      {
+        "name": "lark-whiteboard",
+        "description": "飞书画板：查询和编辑飞书云文档中的画板。支持导出画板为预览图片、导出原始节点结构、使用多种格式更新画板内容。 当用户需要查看画板内容、导出画板图片、编辑画板时使用此 skill。不负责：飞书云文档内容编辑（lark-doc）、文档内嵌电子表格/Base（lark-sheets / lark-base）。",
+        "platform": "trae",
+        "scope": "plugin",
+        "scope_label": "插件",
+        "origin": "trae-remote-official:lark@1.0.5",
+        "path": "~\\.trae-cn\\plugins\\trae-remote-official\\lark\\1.0.5\\skills\\lark-whiteboard",
+        "enabled": true
+      },
+      {
+        "name": "lark-wiki",
+        "description": "飞书知识库：管理知识空间、空间成员和文档节点。创建和查询知识空间、查看和管理空间成员、管理节点层级结构、在知识库中组织文档和快捷方式。当用户需要在知识库中查找或创建文档、浏览知识空间结构、查看或管理空间成员、移动或复制节点时使用。当用户给出 doubao.com 的 /wiki/ URL/token 时，也应直接使用本 skill，不要因为域名不是飞书而回退到 WebFetch；路由依据是 URL 路径模式和 token，而不是域名。不负责：上传文件到知识库节点下（走 lark-drive）、编辑文档/表格/Base 内容（走 lark-doc / lark-sheets / lark-base）。",
+        "platform": "trae",
+        "scope": "plugin",
+        "scope_label": "插件",
+        "origin": "trae-remote-official:lark@1.0.5",
+        "path": "~\\.trae-cn\\plugins\\trae-remote-official\\lark\\1.0.5\\skills\\lark-wiki",
+        "enabled": true
+      },
+      {
+        "name": "lark-workflow-meeting-summary",
+        "description": "会议纪要整理工作流：汇总指定时间范围内的会议纪要并生成结构化报告。当用户需要整理会议纪要、生成会议周报、回顾一段时间内的会议内容时使用。",
+        "platform": "trae",
+        "scope": "plugin",
+        "scope_label": "插件",
+        "origin": "trae-remote-official:lark@1.0.5",
+        "path": "~\\.trae-cn\\plugins\\trae-remote-official\\lark\\1.0.5\\skills\\lark-workflow-meeting-summary",
+        "enabled": true
+      },
+      {
+        "name": "lark-workflow-standup-report",
+        "description": "日程待办摘要：编排 calendar +agenda 和 task +get-my-tasks，生成指定日期的日程与未完成任务摘要。适用于了解今天/明天/本周的安排。",
+        "platform": "trae",
+        "scope": "plugin",
+        "scope_label": "插件",
+        "origin": "trae-remote-official:lark@1.0.5",
+        "path": "~\\.trae-cn\\plugins\\trae-remote-official\\lark\\1.0.5\\skills\\lark-workflow-standup-report",
+        "enabled": true
+      },
+      {
+        "name": "pdf",
+        "description": "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When you need to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale.",
+        "platform": "trae",
+        "scope": "plugin",
+        "scope_label": "插件",
+        "origin": "trae-remote-official:office-plugin@0.1.0",
+        "path": "~\\.trae-cn\\plugins\\trae-remote-official\\office-plugin\\0.1.0\\skills\\pdf",
+        "enabled": true
+      },
+      {
+        "name": "pptx",
+        "description": "Presentation creation, editing, and analysis. When you need to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layouts, (4) Adding comments or speaker notes, or any other presentation tasks",
+        "platform": "trae",
+        "scope": "plugin",
+        "scope_label": "插件",
+        "origin": "trae-remote-official:office-plugin@0.1.0",
+        "path": "~\\.trae-cn\\plugins\\trae-remote-official\\office-plugin\\0.1.0\\skills\\pptx",
+        "enabled": true
+      },
+      {
+        "name": "prd-authoring",
+        "description": "Turns incomplete product ideas into reviewable PRDs. Invoke for PRD creation, completion, rewriting, feature specs, product requirements, or prototype-centered interactive PRDs.",
+        "platform": "trae",
+        "scope": "plugin",
+        "scope_label": "插件",
+        "origin": "trae-remote-official:prd-authoring@0.1.0",
+        "path": "~\\.trae-cn\\plugins\\trae-remote-official\\prd-authoring\\0.1.0\\skills\\prd-authoring",
+        "enabled": true
+      },
+      {
+        "name": "research-guide",
+        "description": "Primary research & analysis scenario Skill. Activate when the user's intent involves searching, looking up facts, researching, investigating, analyzing, comparing products or technologies, conducting competitive analysis, writing a research report, or producing any evidence-based deliverable. Provides source-hierarchy rules, cross-validation methodology, search paradigms, and sub-scenario routing. For deliverable generation (research reports, competitive analyses), routes to specialized references in the references/ directory.",
+        "platform": "trae",
+        "scope": "plugin",
+        "scope_label": "插件",
+        "origin": "trae-remote-official:deep-research-assistant@0.1.0",
+        "path": "~\\.trae-cn\\plugins\\trae-remote-official\\deep-research-assistant\\0.1.0\\skills\\research-guide",
+        "enabled": true
+      },
+      {
+        "name": "story-craft",
+        "description": "Skill for creative fiction — original novels (short / medium / long-form webnovel), fanfiction (character fidelity, CP interaction, plot extension), screenplay / dynamic-comic script, worldbuilding-only. No fixed template; dynamically shapes narrative structure, pacing, character system, style temperature and long-form state tracking per scenario. Core directions: five-dimension character card + Soul Field, craft principles paired with positive/negative samples, 3:1 pacing, four-tier hook escalation, five-band style temperature, long-form state files as working aid, fidelity-first fanfic. Self-contained: carries its own intent interpretation, scenario recognition, content structure and visual guidance for the fiction-writing scenario.",
+        "platform": "trae",
+        "scope": "plugin",
+        "scope_label": "插件",
+        "origin": "trae-remote-official:story-craft@0.1.1",
+        "path": "~\\.trae-cn\\plugins\\trae-remote-official\\story-craft\\0.1.1\\skills\\story-craft",
+        "enabled": true
+      },
+      {
+        "name": "xlsx",
+        "description": "Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .csv, or .tsv file (e.g., adding columns, computing formulas, formatting, charting, cleaning messy data); create a new spreadsheet from scratch or from other data sources; or convert between tabular file formats. Trigger especially when the user references a spreadsheet file by name or path — even casually (like \\\"the xlsx in my downloads\\\") — and wants something done to it or produced from it. Also trigger for cleaning or restructuring messy tabular data files (malformed rows, misplaced headers, junk data) into proper spreadsheets. The deliverable must be a spreadsheet file. Do NOT trigger when the primary deliverable is a Word document, HTML report, standalone Python script, database pipeline, or Google Sheets API integration, even if tabular data is involved.",
+        "platform": "trae",
+        "scope": "plugin",
+        "scope_label": "插件",
+        "origin": "trae-remote-official:office-plugin@0.1.0",
+        "path": "~\\.trae-cn\\plugins\\trae-remote-official\\office-plugin\\0.1.0\\skills\\xlsx",
+        "enabled": true
+      }
+    ],
+    "total": 50,
+    "enabled": 50
+  },
+  "mcp": {
+    "servers": [
+      {
+        "name": "integrated_code_mode",
+        "platform": "trae",
+        "scope": "workspace",
+        "scope_label": "Trae 工作区",
+        "origin": "s_water-5367b61e",
+        "category": "solo_agent",
+        "workspace": "s_water-5367b61e",
+        "transport": "",
+        "tools": [
+          "Exec"
+        ],
+        "enabled": true,
+        "source": "trae-cache",
+        "instances": [
+          {
+            "scope_label": "Trae 工作区",
+            "origin": "s_water-5367b61e",
+            "workspace": "s_water-5367b61e",
+            "category": "solo_agent"
+          }
+        ],
+        "tool_count": 1
+      },
+      {
+        "name": "mcp_Playwright",
+        "platform": "trae",
+        "scope": "workspace",
+        "scope_label": "Trae 工作区",
+        "origin": "s_aihelper-c9413a2d",
+        "category": "browser_use",
+        "workspace": "s_aihelper-c9413a2d",
+        "transport": "",
+        "tools": [
+          "clear_codegen_session",
+          "end_codegen_session",
+          "get_codegen_session",
+          "playwright_assert_response",
+          "playwright_click",
+          "playwright_click_and_switch_tab",
+          "playwright_close",
+          "playwright_console_logs",
+          "playwright_custom_user_agent",
+          "playwright_delete",
+          "playwright_drag",
+          "playwright_evaluate",
+          "playwright_expect_response",
+          "playwright_fill",
+          "playwright_get",
+          "playwright_get_visible_html",
+          "playwright_get_visible_text",
+          "playwright_go_back",
+          "playwright_go_forward",
+          "playwright_hover",
+          "playwright_iframe_click",
+          "playwright_iframe_fill",
+          "playwright_navigate",
+          "playwright_patch",
+          "playwright_post",
+          "playwright_press_key",
+          "playwright_put",
+          "playwright_resize",
+          "playwright_save_as_pdf",
+          "playwright_screenshot",
+          "playwright_select",
+          "playwright_upload_file",
+          "start_codegen_session"
+        ],
+        "enabled": true,
+        "source": "trae-cache",
+        "instances": [
+          {
+            "scope_label": "Trae 工作区",
+            "origin": "s_aihelper-c9413a2d",
+            "workspace": "s_aihelper-c9413a2d",
+            "category": "browser_use"
+          },
+          {
+            "scope_label": "Trae 工作区",
+            "origin": "s_swwl-4d72a82e",
+            "workspace": "s_swwl-4d72a82e",
+            "category": "browser_use"
+          },
+          {
+            "scope_label": "Trae 工作区",
+            "origin": "s_swwl-4d72a82e",
+            "workspace": "s_swwl-4d72a82e",
+            "category": "search"
+          },
+          {
+            "scope_label": "Trae 工作区",
+            "origin": "s_swwl-66dfdf04",
+            "workspace": "s_swwl-66dfdf04",
+            "category": "browser_use"
+          },
+          {
+            "scope_label": "Trae 工作区",
+            "origin": "s_swwl-66dfdf04",
+            "workspace": "s_swwl-66dfdf04",
+            "category": "search"
+          },
+          {
+            "scope_label": "Trae 工作区",
+            "origin": "s_water-5367b61e",
+            "workspace": "s_water-5367b61e",
+            "category": "browser_use"
+          },
+          {
+            "scope_label": "Trae 工作区",
+            "origin": "s_water-5367b61e",
+            "workspace": "s_water-5367b61e",
+            "category": "search"
+          }
+        ],
+        "tool_count": 33
+      },
+      {
+        "name": "mcp_ProcesOn_MCP",
+        "platform": "trae",
+        "scope": "workspace",
+        "scope_label": "Trae 工作区",
+        "origin": "s_aihelper-c9413a2d",
+        "category": "browser_use",
+        "workspace": "s_aihelper-c9413a2d",
+        "transport": "",
+        "tools": [
+          "generate_chart",
+          "generate_diagram",
+          "generate_diagram_dsl"
+        ],
+        "enabled": true,
+        "source": "trae-cache",
+        "instances": [
+          {
+            "scope_label": "Trae 工作区",
+            "origin": "s_aihelper-c9413a2d",
+            "workspace": "s_aihelper-c9413a2d",
+            "category": "browser_use"
+          },
+          {
+            "scope_label": "Trae 工作区",
+            "origin": "s_swwl-4d72a82e",
+            "workspace": "s_swwl-4d72a82e",
+            "category": "browser_use"
+          },
+          {
+            "scope_label": "Trae 工作区",
+            "origin": "s_swwl-4d72a82e",
+            "workspace": "s_swwl-4d72a82e",
+            "category": "search"
+          },
+          {
+            "scope_label": "Trae 工作区",
+            "origin": "s_swwl-66dfdf04",
+            "workspace": "s_swwl-66dfdf04",
+            "category": "browser_use"
+          },
+          {
+            "scope_label": "Trae 工作区",
+            "origin": "s_swwl-66dfdf04",
+            "workspace": "s_swwl-66dfdf04",
+            "category": "search"
+          },
+          {
+            "scope_label": "Trae 工作区",
+            "origin": "s_water-5367b61e",
+            "workspace": "s_water-5367b61e",
+            "category": "browser_use"
+          },
+          {
+            "scope_label": "Trae 工作区",
+            "origin": "s_water-5367b61e",
+            "workspace": "s_water-5367b61e",
+            "category": "search"
+          }
+        ],
+        "tool_count": 3
+      }
+    ],
+    "total": 3
+  },
+  "agents": {
+    "agents": [],
+    "total": 0
+  },
+  "prices": {
+    "currency": "CNY",
+    "unit": "per_1m_tokens",
+    "verified": false,
+    "note": "示例单价，按公开参考价估算，未与实际账单核对。修改四个单价后重新运行即可生效。",
+    "models": {
+      "deepseek-v4-flash": {
+        "input": 2.0,
+        "output": 8.0,
+        "cache_read": 0.2,
+        "cache_write": 2.0
+      },
+      "deepseek-v4-pro": {
+        "input": 4.0,
+        "output": 16.0,
+        "cache_read": 0.4,
+        "cache_write": 4.0
+      },
+      "deepseek-v4.1-flash": {
+        "input": 2.0,
+        "output": 8.0,
+        "cache_read": 0.2,
+        "cache_write": 2.0
+      },
+      "glm-5": {
+        "input": 4.0,
+        "output": 16.0,
+        "cache_read": 0.8,
+        "cache_write": 4.0
+      },
+      "glm-5.1": {
+        "input": 6.0,
+        "output": 24.0,
+        "cache_read": 1.2,
+        "cache_write": 6.0
+      },
+      "qwen3.6-plus": {
+        "input": 1.0,
+        "output": 4.0,
+        "cache_read": 0.2,
+        "cache_write": 1.0
+      },
+      "qwen3.7-plus": {
+        "input": 2.0,
+        "output": 8.0,
+        "cache_read": 0.4,
+        "cache_write": 2.0
+      },
+      "step-5-preview": {
+        "input": 5.0,
+        "output": 20.0,
+        "cache_read": 1.0,
+        "cache_write": 5.0
+      },
+      "<synthetic>": null,
+      "unknown": null
+    }
+  }
+}

@@ -23,10 +23,18 @@
       </nav>
 
       <div class="sidebar-foot">
-        <b>只读扫描</b><br />
-        数据来自本机 Claude Code 与 Trae Code 日志，不上传、不改配置。<br /><br />
-        最近扫描<br />
-        {{ lastScanText }}
+        <template v-if="isStatic">
+          <b>静态快照</b><br />
+          页面读取的是构建时导出的数据，不是实时用量。<br /><br />
+          快照时间<br />
+          {{ snapshotDate }}
+        </template>
+        <template v-else>
+          <b>只读扫描</b><br />
+          数据来自本机 Claude Code 与 Trae Code 日志，不上传、不改配置。<br /><br />
+          最近扫描<br />
+          {{ lastScanText }}
+        </template>
       </div>
     </aside>
 
@@ -37,11 +45,15 @@
           <p>{{ $route.meta.hint }}</p>
         </div>
         <div class="topbar-actions">
+          <span v-if="isStatic" class="chip">
+            <span class="dot" />
+            快照 · {{ snapshotDate }}
+          </span>
           <span v-if="prices" class="chip" :class="prices.verified ? 'brand' : 'warn'">
             <span class="dot" />
             {{ prices.verified ? '单价已核对' : '示例价 · 未核对' }}
           </span>
-          <button class="btn" :disabled="scanning" @click="rescan">
+          <button v-if="!isStatic" class="btn" :disabled="scanning" @click="rescan">
             {{ scanning ? '扫描中…' : '重新扫描' }}
           </button>
         </div>
@@ -57,7 +69,7 @@
 <script setup>
 import { computed, onMounted, ref, watch } from 'vue'
 import { RouterLink, RouterView } from 'vue-router'
-import { getOverview, scan } from './api'
+import { getOverview, getSnapshotInfo, isStatic, scan } from './api'
 import { bump, revision, scanning } from './store'
 import { timeText } from './utils'
 
@@ -72,6 +84,8 @@ const navItems = [
 const prices = ref(null)
 const lastScan = ref(null)
 const toast = ref('')
+const snapshotAt = ref('')
+const snapshotDate = computed(() => snapshotAt.value.slice(0, 10) || '构建时导出')
 
 const lastScanText = computed(() => {
   if (lastScan.value) return timeText(lastScan.value)
@@ -114,6 +128,15 @@ async function rescan() {
 
 onMounted(() => {
   loadHeader()
+  if (isStatic) {
+    getSnapshotInfo()
+      .then((info) => {
+        snapshotAt.value = info?.generated_at || ''
+      })
+      .catch(() => {
+        snapshotAt.value = ''
+      })
+  }
   if (window.desktop?.onScanDone) {
     window.desktop.onScanDone(async () => {
       await loadHeader()

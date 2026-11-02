@@ -57,7 +57,7 @@
           <span class="tag" :class="priceData?.verified ? 'green' : 'amber'">
             {{ priceData?.verified ? '已核对' : '示例价 · 未核对' }}
           </span>
-          <span>{{ priceData?.note || '单价可以直接修改，保存后立即生效。' }}</span>
+          <span>{{ isStatic ? '网页版是只读快照，单价不能修改；桌面版修改后会立即重算花费。' : (priceData?.note || '单价可以直接修改，保存后立即生效。') }}</span>
         </div>
 
         <table class="table price-table">
@@ -82,6 +82,7 @@
                   min="0"
                   step="0.01"
                   placeholder="未填"
+                  :disabled="isStatic"
                 />
               </td>
               <td>
@@ -94,10 +95,10 @@
 
         <div class="price-actions">
           <label class="check">
-            <input v-model="verified" type="checkbox" />
+            <input v-model="verified" type="checkbox" :disabled="isStatic" />
             这些单价已和账单核对
           </label>
-          <button class="btn primary" :disabled="saving" @click="save">
+          <button v-if="!isStatic" class="btn primary" :disabled="saving" @click="save">
             {{ saving ? '保存中…' : '保存单价' }}
           </button>
         </div>
@@ -111,7 +112,7 @@
 <script setup>
 import { computed, onMounted, reactive, ref, watch } from 'vue'
 import Chart from '../components/Chart.vue'
-import { getModels, getPrices, savePrices } from '../api'
+import { getModels, getPrices, isStatic, savePrices } from '../api'
 import { revision } from '../store'
 import { money, percent, tokens } from '../utils'
 import { COLORS, categoryAxis, tooltip, valueAxis } from '../charts'
